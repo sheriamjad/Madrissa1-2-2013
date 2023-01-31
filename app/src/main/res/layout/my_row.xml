@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="403dp"
+        android:layout_height="234dp"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/studentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+
+            app:layout_constraintStart_toStartOf="@+id/sName"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/sName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+
+            app:layout_constraintStart_toStartOf="@+id/cSabak"
+            tools:layout_editor_absoluteY="47dp" />
+
+        <TextView
+            android:id="@+id/cSabak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabak"
+
+            app:layout_constraintStart_toStartOf="@+id/cSabki"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <TextView
+            android:id="@+id/cSabki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabki"
+
+            app:layout_constraintStart_toStartOf="@+id/cManzil"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:id="@+id/cManzil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manzil"
+
+            app:layout_constraintStart_toStartOf="@+id/cDate"
+            tools:layout_editor_absoluteY="147dp" />
+
+        <TextView
+            android:id="@+id/cDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/sId"
+            tools:layout_editor_absoluteX="35dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/sName"
+            app:layout_constraintStart_toStartOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabak"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabki"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/cSabki"
+            app:layout_constraintStart_toStartOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manzil"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/cManzil"
+            app:layout_constraintStart_toStartOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/cDate"
+            app:layout_constraintStart_toStartOf="@+id/textView12" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
